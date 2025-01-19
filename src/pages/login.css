@@ -1,0 +1,33 @@
+.welcomeContainer {
+    display: flex;
+    width: fit-content;
+    max-width: 60vw;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.welcome {
+    font-size: clamp(10px, 1.5vw, 20px);
+    text-align: center;
+}
+
+.logincontainer {
+    margin: 20px auto;
+    max-width: 298px; 
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid #a00000;
+   color: rgb(0, 0, 0);
+}
+
+.form-group{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.btn{
+    margin-top: 20px;
+}

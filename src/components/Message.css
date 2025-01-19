@@ -1,0 +1,23 @@
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+ 
+  
+  .message-box {
+    color: rgb(0, 0, 0);
+    margin-right: 9px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 3px 15px 3px 15px;
+    background: #EAFEFF;
+    background: -moz-linear-gradient(top, #acacac 0%, #b93733 42%, #c92727 47%, #c22121 100%);
+    background: -webkit-linear-gradient(top, #c01717 0%, #c72323 42%, #b42f2f 47%, #b92f2f 100%);
+    background: linear-gradient(to bottom, #b43434 0%, #c53232 42%, #c43030 47%, #ad2121 100%);
+    border: 1px solid #d0d0d0;
+  }
+  
