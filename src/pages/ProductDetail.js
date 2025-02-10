@@ -20,6 +20,7 @@ const ProductDetail = () => {
     const [product, setProduct] = useState(null);
     const { handleAdd } = useContext(CartContext);
     
+    
 
     const item = [
         {
@@ -95,7 +96,7 @@ const ProductDetail = () => {
 
     if (!product) return <div>Loading...</div>; 
     return (
-        <div className="container product-page-container">
+        <div className="container product-page-container ">
             <div className="row">
                 <div className="col-md-6">
                     <img

@@ -1,12 +1,12 @@
 .my-navbar {
     margin-bottom: 40px;
-    border-top:#ce1215 solid 1px;
-    border-bottom:rgb(0, 0, 0) solid 1px;
-    box-shadow: 0 1px 5px rgba(98, 100, 101, 0.556) , 0 -4px 5px  rgba(98, 100, 101, 0.096) ; 
+    
+    border-bottom:rgb(255, 255, 255) solid 1px;
+    box-shadow: 0 1px 5px rgb(255, 255, 255) , 0 -4px 5px  rgba(255, 255, 255, 0.096) ; 
     padding-top:4px;
     padding-bottom:4px;
     background: rgb(254, 254, 254);
-    background: linear-gradient(180deg, rgb(235, 18, 18) 0%, rgb(201, 56, 45) 28%, rgb(214, 56, 56) 47%, rgb(2, 1, 1) 100%);
+    background: linear-gradient(180deg, rgb(235, 18, 18) 0%, rgb(201, 56, 45) 28%, rgb(214, 56, 56) 47%, rgb(255, 255, 255) 100%);
     text-align: center;
 }
 
